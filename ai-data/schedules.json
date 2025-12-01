@@ -1,0 +1,34 @@
+{
+  "faqs": [
+    {
+      "question": "How do I view or download my class schedule?",
+      "answer": "After you are admitted, the Registrar's Office will issue your Certificate of Registration (COR). Your COR acts as your official class schedule and subject list. You may also request a copy again from the Registrar if you lose it.",
+      "keywords": [
+        "class schedule",
+        "schedule",
+        "cor",
+        "certificate of registration",
+        "where is my schedule"
+      ]
+    },
+    {
+      "question": "How do I add or drop subjects?",
+      "answer": "To add or drop subjects, coordinate with the Student Admission Office (SAO) and follow their instructions and deadlines. Changes are usually reflected on your updated COR from the Registrar.",
+      "keywords": [
+        "add subject",
+        "drop subject",
+        "change schedule",
+        "modify enrollment"
+      ]
+    },
+    {
+      "question": "When do classes start?",
+      "answer": "Exact opening of classes can change every academic year, but they are typically announced by NEMSU through official channels such as Facebook and campus notices. Always check the latest announcements for start dates.",
+      "keywords": [
+        "start of classes",
+        "when do classes start",
+        "opening of classes"
+      ]
+    }
+  ]
+}

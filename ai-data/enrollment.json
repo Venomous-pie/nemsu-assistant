@@ -1,0 +1,929 @@
+{
+  "topic": "enrollment",
+  "academic_year": "2025-2026",
+  "semester": "1st Semester",
+  "source": "Student Admission Office - NEMSU",
+  "faqs": [
+    {
+      "question": "What are the enrollment requirements for undergraduate new students?",
+      "answer": "For undergraduate new students (1st Semester AY 2025-2026), you need: SHS/HS Report Card or ALS Card, Good Moral Certificate, Authentic Birth Certificate, Marriage Certificate (if married), Entrance Exam Result, College Admission Result (if applicable), Student Admission Form, 2x2 ID Picture, and Long Brown Envelope. Source: Student Admission Office, NEMSU.",
+      "category": "undergraduate_new",
+      "keywords": [
+        "new student",
+        "freshman",
+        "requirements",
+        "documents",
+        "undergraduate",
+        "first year",
+        "college freshman",
+        "enroll as new",
+        "first timer",
+        "new enrollee",
+        "enrollment papers",
+        "what to bring",
+        "needed documents",
+        "admission requirements",
+        "freshmen requirements",
+        "newbie",
+        "new student requirements",
+        "freshman enrollment",
+        "undergrad requirements",
+        "new student documents"
+      ]
+    },
+    {
+      "question": "What documents do I need to enroll as a new student?",
+      "answer": "New undergraduate students need: SHS/HS Report Card or ALS Card, Good Moral Certificate, Authentic Birth Certificate, Marriage Certificate (if married), Entrance Exam Result, College Admission Result (if applicable), Student Admission Form, 2x2 ID Picture, and Long Brown Envelope.",
+      "category": "undergraduate_new",
+      "keywords": [
+        "new",
+        "first time",
+        "documents",
+        "papers",
+        "need",
+        "requirements",
+        "enrollment documents",
+        "what to submit",
+        "required papers",
+        "admission docs",
+        "application documents",
+        "new applicant",
+        "freshman docs",
+        "new student papers",
+        "enrollment requirements",
+        "documents needed",
+        "new student application"
+      ]
+    },
+    {
+      "question": "What are the requirements for transferee students?",
+      "answer": "Undergraduate transferee students need: Honorable Dismissal with Evaluated Grades, Good Moral Certificate, Authentic Birth Certificate, Marriage Certificate (if married), Entrance Exam Result, College Admission Result (if applicable), Student Admission Form, 2x2 ID Picture, and Long Brown Envelope.",
+      "category": "undergraduate_transferee",
+      "keywords": [
+        "transfer",
+        "transferee",
+        "shifting",
+        "change school",
+        "requirements",
+        "transfer student",
+        "moving school",
+        "switching college",
+        "cross enrollment",
+        "transfer docs",
+        "transferee requirements",
+        "school transfer",
+        "new school",
+        "transfer requirements",
+        "transferee documents",
+        "transfer application",
+        "transfer credentials"
+      ]
+    },
+    {
+      "question": "What documents do transfer students need?",
+      "answer": "Transfer students need Honorable Dismissal with Evaluated Grades, Good Moral Certificate, Authentic Birth Certificate, Marriage Certificate (if married), Entrance Exam Result, College Admission Result (if applicable), Student Admission Form, 2x2 ID Picture, and Long Brown Envelope.",
+      "category": "undergraduate_transferee",
+      "keywords": [
+        "transfer",
+        "transferee",
+        "documents",
+        "papers",
+        "transfer requirements",
+        "needed docs",
+        "transfer application",
+        "what to bring",
+        "transfer credentials",
+        "school records",
+        "documents for transfer",
+        "switching schools",
+        "transfer student documents",
+        "transferee papers",
+        "transfer enrollment"
+      ]
+    },
+    {
+      "question": "What are the enrollment requirements for graduate school?",
+      "answer": "For Graduate School and Juris Doctor programs, you need: Honorable Dismissal (if graduate from other school), Photocopy of TOR (Transcript of Records), Authentic Birth Certificate, Marriage Certificate (if married), Entrance Exam Result, Program Admission Result (if applicable), Student Admission Form, 2x2 ID Picture, and Long Brown Envelope.",
+      "category": "graduate",
+      "keywords": [
+        "graduate school",
+        "masters",
+        "doctorate",
+        "juris doctor",
+        "law",
+        "grad school",
+        "postgrad",
+        "graduate requirements",
+        "graduate admission",
+        "graduate docs",
+        "masters requirements",
+        "phd requirements",
+        "law school requirements",
+        "grad application",
+        "graduate program",
+        "postgraduate studies",
+        "graduate degree"
+      ]
+    },
+    {
+      "question": "What do I need to enroll in graduate school?",
+      "answer": "Graduate school requirements include: Honorable Dismissal (if from another school), Photocopy of TOR, Authentic Birth Certificate, Marriage Certificate (if married), Entrance Exam Result, Program Admission Result (if applicable), Student Admission Form, 2x2 ID Picture, and Long Brown Envelope.",
+      "category": "graduate",
+      "keywords": [
+        "graduate",
+        "masters",
+        "phd",
+        "requirements",
+        "documents"
+      ]
+    },
+    {
+      "question": "What is Juris Doctor and what are its requirements?",
+      "answer": "Juris Doctor is a law degree program. Requirements are the same as Graduate School: Honorable Dismissal (if from another school), Photocopy of TOR, Authentic Birth Certificate, Marriage Certificate (if married), Entrance Exam Result, Program Admission Result (if applicable), Student Admission Form, 2x2 ID Picture, and Long Brown Envelope.",
+      "category": "graduate",
+      "keywords": [
+        "juris doctor",
+        "law school",
+        "law degree",
+        "jd"
+      ]
+    },
+    {
+      "question": "Do I need a good moral certificate?",
+      "answer": "Yes, a Good Moral Certificate is required for all undergraduate students (both new students and transferees) during enrollment. It is not explicitly required for graduate students based on the official requirements.",
+      "category": "documents",
+      "keywords": [
+        "good moral",
+        "moral certificate",
+        "character certificate"
+      ]
+    },
+    {
+      "question": "Do I need my birth certificate for enrollment?",
+      "answer": "Yes, an Authentic Birth Certificate is required for all students (undergraduate new, transferee, and graduate) during enrollment at NEMSU.",
+      "category": "documents",
+      "keywords": [
+        "birth certificate",
+        "psa",
+        "nso",
+        "birth cert"
+      ]
+    },
+    {
+      "question": "Is marriage certificate required?",
+      "answer": "A Marriage Certificate is required only if you are married. This applies to all student categories - undergraduate new, transferee, and graduate students.",
+      "category": "documents",
+      "keywords": [
+        "marriage certificate",
+        "married",
+        "wedding certificate"
+      ]
+    },
+    {
+      "question": "What ID picture size do I need?",
+      "answer": "You need 2x2 ID pictures for enrollment requirements. Make sure to prepare multiple copies.",
+      "category": "documents",
+      "keywords": [
+        "id picture",
+        "photo",
+        "2x2",
+        "picture requirement"
+      ]
+    },
+    {
+      "question": "Do I need an entrance exam result?",
+      "answer": "Yes, Entrance Exam Result is required for all enrollment categories including undergraduate new students, transferees, and graduate students.",
+      "category": "requirements",
+      "keywords": [
+        "entrance exam",
+        "exam result",
+        "test result",
+        "admission test"
+      ]
+    },
+    {
+      "question": "What is a long brown envelope for?",
+      "answer": "A Long Brown Envelope is part of the enrollment requirements. It is used to organize and submit all your enrollment documents to the Student Admission Office.",
+      "category": "documents",
+      "keywords": [
+        "envelope",
+        "brown envelope",
+        "folder"
+      ]
+    },
+    {
+      "question": "What is SHS report card?",
+      "answer": "SHS Report Card stands for Senior High School Report Card. This is required for undergraduate new students as proof of completion of senior high school education.",
+      "category": "documents",
+      "keywords": [
+        "shs",
+        "senior high school",
+        "report card",
+        "form 138"
+      ]
+    },
+    {
+      "question": "What is ALS card?",
+      "answer": "ALS Card (Alternative Learning System Card) can be used instead of a high school report card for undergraduate new students who completed their education through the Alternative Learning System rather than traditional schooling.",
+      "category": "documents",
+      "keywords": [
+        "als",
+        "alternative learning",
+        "als card"
+      ]
+    },
+    {
+      "question": "What is TOR?",
+      "answer": "TOR stands for Transcript of Records. Graduate school and Juris Doctor applicants need to submit a photocopy of their TOR from their previous institution showing all their completed courses and grades.",
+      "category": "documents",
+      "keywords": [
+        "tor",
+        "transcript",
+        "transcript of records",
+        "grades"
+      ]
+    },
+    {
+      "question": "Do I need honorable dismissal?",
+      "answer": "Yes, Honorable Dismissal is required for: (1) Undergraduate transferee students - must include Evaluated Grades, and (2) Graduate school students who graduated from other schools. New undergraduate students do not need honorable dismissal.",
+      "category": "documents",
+      "keywords": [
+        "honorable dismissal",
+        "transfer credentials",
+        "clearance"
+      ]
+    },
+    {
+      "question": "What is honorable dismissal with evaluated grades?",
+      "answer": "Honorable Dismissal with Evaluated Grades is a document from your previous school showing you left in good standing and includes your grades that have been evaluated/assessed by that institution. This is specifically required for undergraduate transferee students.",
+      "category": "documents",
+      "keywords": [
+        "honorable dismissal",
+        "evaluated grades",
+        "transfer"
+      ]
+    },
+    {
+      "question": "What is the Student Admission Form?",
+      "answer": "The Student Admission Form is an official enrollment form required for all students (undergraduate and graduate). You can get this from the Student Admission Office or possibly download it from the NEMSU website at nemsu.edu.ph.",
+      "category": "documents",
+      "keywords": [
+        "admission form",
+        "enrollment form",
+        "application form"
+      ]
+    },
+    {
+      "question": "What is College Admission Result?",
+      "answer": "College Admission Result is required if applicable. This refers to the result of your application to a specific college or program within NEMSU. Not all students may need this - check with your specific program.",
+      "category": "requirements",
+      "keywords": [
+        "college admission",
+        "admission result",
+        "acceptance"
+      ]
+    },
+    {
+      "question": "What is Program Admission Result?",
+      "answer": "Program Admission Result (for graduate students) is required if applicable. This refers to acceptance into a specific graduate program. Not all programs may require separate admission results - check with your intended graduate program.",
+      "category": "requirements",
+      "keywords": [
+        "program admission",
+        "graduate admission",
+        "acceptance"
+      ]
+    },
+    {
+      "question": "How do I enroll?",
+      "answer": "To enroll at NEMSU: (1) Prepare all required documents based on your category (new student, transferee, or graduate), (2) Visit the Student Admission Office, or (3) Check if online enrollment is available through the student portal. Contact information@nemsu.edu.ph for specific enrollment procedures.",
+      "category": "process",
+      "keywords": [
+        "how to enroll",
+        "enrollment process",
+        "registration"
+      ]
+    },
+    {
+      "question": "When is the enrollment period?",
+      "answer": "The enrollment requirements shown are for 1st Semester, Academic Year 2025-2026. For specific enrollment dates, deadlines, and schedules, please contact the Student Admission Office or visit nemsu.edu.ph.",
+      "category": "schedule",
+      "keywords": [
+        "when",
+        "enrollment period",
+        "deadline",
+        "schedule"
+      ]
+    },
+    {
+      "question": "Where is the Student Admission Office?",
+      "answer": "The Student Admission Office is located at Northeastern Mindanao State University (NEMSU). For specific location and office hours, please contact them at information@nemsu.edu.ph or visit nemsu.edu.ph.",
+      "category": "contact",
+      "keywords": [
+        "admission office",
+        "where",
+        "location",
+        "office"
+      ]
+    },
+    {
+      "question": "How can I contact the admission office?",
+      "answer": "You can contact NEMSU Student Admission Office through: Email: information@nemsu.edu.ph, Website: nemsu.edu.ph, or visit their Facebook page: northeasternmindanaostateuniversity",
+      "category": "contact",
+      "keywords": [
+        "contact",
+        "email",
+        "phone",
+        "reach"
+      ]
+    },
+    {
+      "question": "Where can I get more information about enrollment?",
+      "answer": "For more enrollment information, contact the Student Admission Office at NEMSU: Email: information@nemsu.edu.ph, Website: nemsu.edu.ph, Facebook: northeasternmindanaostateuniversity",
+      "category": "contact",
+      "keywords": [
+        "information",
+        "help",
+        "inquire",
+        "ask"
+      ]
+    },
+    {
+      "question": "Can I enroll online?",
+      "answer": "For information about online enrollment options, please contact the Student Admission Office at information@nemsu.edu.ph or check the student portal at nemsu.edu.ph.",
+      "category": "process",
+      "keywords": [
+        "online enrollment",
+        "online registration",
+        "internet",
+        "portal"
+      ]
+    },
+    {
+      "question": "What if I'm missing a document?",
+      "answer": "If you're missing required documents, contact the Student Admission Office immediately at information@nemsu.edu.ph to ask about alternatives or deadline extensions. It's best to prepare all documents in advance.",
+      "category": "process",
+      "keywords": [
+        "missing",
+        "incomplete",
+        "lost",
+        "no document"
+      ]
+    },
+    {
+      "question": "Do I need original or photocopy of documents?",
+      "answer": "Based on the requirements: Birth Certificate must be AUTHENTIC (original or certified true copy), Marriage Certificate should be authentic, TOR for graduate students needs PHOTOCOPY. For other documents, it's best to bring both originals and photocopies. Check with Student Admission Office for clarification.",
+      "category": "documents",
+      "keywords": [
+        "original",
+        "photocopy",
+        "xerox",
+        "copy"
+      ]
+    },
+    {
+      "question": "What is the difference between new student and transferee?",
+      "answer": "New students are enrolling in undergraduate programs for the first time (fresh from SHS/HS). Transferees are students who are transferring from another college/university. The main difference in requirements: new students need SHS/HS Report Card while transferees need Honorable Dismissal with Evaluated Grades.",
+      "category": "general",
+      "keywords": [
+        "difference",
+        "new vs transfer",
+        "freshman vs transferee"
+      ]
+    },
+    {
+      "question": "What are the requirements for enrollment?",
+      "answer": "Enrollment requirements depend on whether you are a new undergraduate, transferee, or graduate student, but in general you must prepare your report card or TOR, Good Moral Certificate, Authentic Birth Certificate, Marriage Certificate if married, entrance exam result, admission result (if applicable), Student Admission Form, 2x2 ID picture, and a long brown envelope. Always check the official list from the Student Admission Office for your specific category.",
+      "category": "summary",
+      "keywords": [
+        "requirements",
+        "enrollment requirements",
+        "what do I need",
+        "documents for enrollment",
+        "requirements for enrollment"
+      ]
+    },
+    {
+      "question": "How do I get my student ID?",
+      "answer": "After you are successfully enrolled, new students can claim their school ID on the second floor of the building that houses the Registrar's Office and Student Admission Office near Gate 1. Make sure your enrollment is complete and follow any instructions given by the Registrar.",
+      "category": "id",
+      "keywords": [
+        "student id",
+        "school id",
+        "get my id",
+        "id release",
+        "id claiming"
+      ]
+    },
+    {
+      "question": "When is the enrollment deadline?",
+      "answer": "The exact enrollment deadline is not fixed and is usually announced by NEMSU Cantilan Campus on its official Facebook page and other channels. Always check the latest posts on the campus Facebook page or contact the Student Admission Office for the current deadline.",
+      "category": "schedule",
+      "keywords": [
+        "enrollment deadline",
+        "last day of enrollment",
+        "when is enrollment",
+        "cut off"
+      ]
+    },
+    {
+      "question": "Are there scholarships or financial aid available?",
+      "answer": "NEMSU Cantilan Campus offers at least one scholarship or financial assistance program. For current details, eligibility and application steps, students should inquire directly at the Registrar's Office or the scholarship desk near it.",
+      "category": "scholarship",
+      "keywords": [
+        "scholarship",
+        "financial aid",
+        "grant",
+        "discount",
+        "scholarships available"
+      ]
+    },
+    {
+      "question": "How do I know if I'm accepted?",
+      "answer": "Admission results are usually posted on the official NEMSU or NEMSU Cantilan Facebook page. In some cases you may see your result immediately after the entrance exam, or you can visit the campus and ask the Student Admission Office (SAO) to check your admission result.",
+      "category": "results",
+      "keywords": [
+        "accepted",
+        "pass",
+        "result",
+        "exam result",
+        "am I accepted",
+        "did I pass"
+      ]
+    },
+    {
+      "question": "Where do I submit my enrollment documents?",
+      "answer": "After preparing your complete set of requirements, you submit your enrollment documents through the Student Admission Office and Registrar's Office at NEMSU Cantilan Campus, usually near Gate 1.",
+      "category": "process",
+      "keywords": [
+        "submit documents",
+        "where do I submit",
+        "where to pass requirements",
+        "submit forms"
+      ]
+    },
+    {
+      "question": "What happens if I'm late for enrollment?",
+      "answer": "If you enroll past the announced enrollment period, there is a chance you may not be admitted, especially if slots for your desired program are already full. In some cases late enrollment may still be allowed depending on the course or program, so you should immediately visit the Student Admission Office or Registrar to ask about your situation.",
+      "category": "schedule",
+      "keywords": [
+        "late enrollment",
+        "enroll late",
+        "past deadline",
+        "late enrolee"
+      ]
+    },
+    {
+      "topic": "courses_and_programs",
+      "campus": "Cantilan Campus",
+      "university": "North Eastern Mindanao State University (NEMSU)",
+      "faqs": [
+        {
+          "question": "What courses are offered at NEMSU Cantilan Campus?",
+          "answer": "NEMSU Cantilan Campus offers various programs including Industrial Technology, Business Administration, Hospitality Management, Tourism Management, Computer Engineering, Information Technology, Computer Science, Secondary Education, Technology and Livelihood Education, Technical Vocational Teacher Education, and Criminology. For a complete list, visit nemsu.edu.ph or contact information@nemsu.edu.ph.",
+          "category": "general",
+          "keywords": [
+            "courses",
+            "programs",
+            "offered",
+            "available",
+            "what courses",
+            "nemsu",
+            "university courses",
+            "what programs",
+            "list of courses",
+            "list of programs",
+            "course list",
+            "program list"
+          ]
+        },
+        {
+          "question": "What are the Industrial Technology majors?",
+          "answer": "Bachelor of Science in Industrial Technology offers 9 majors: Automotive Technology, Architectural Drafting Technology, Computer Technology, Electrical Technology, Electronics Technology, Food Technology, Garments Technology, Mechanical Technology, and Civil Technology.",
+          "category": "industrial_technology",
+          "keywords": [
+            "industrial technology",
+            "bsit",
+            "technology programs",
+            "tech majors"
+          ]
+        },
+        {
+          "question": "Does NEMSU offer Automotive Technology?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Major in Automotive Technology under the Bachelor of Science in Industrial Technology program and also as a major under Bachelor of Technical Vocational Teacher Education.",
+          "category": "industrial_technology",
+          "keywords": [
+            "automotive",
+            "auto tech",
+            "car",
+            "vehicle",
+            "mechanic"
+          ]
+        },
+        {
+          "question": "What Computer-related courses does NEMSU offer?",
+          "answer": "NEMSU Cantilan Campus offers several computer-related programs: (1) Bachelor of Science in Computer Engineering, (2) Bachelor of Science in Information Technology, (3) Bachelor of Science in Computer Science, and (4) Major in Computer Technology under BS Industrial Technology.",
+          "category": "computer_programs",
+          "keywords": [
+            "computer",
+            "it",
+            "programming",
+            "computer science",
+            "computer engineering",
+            "technology"
+          ]
+        },
+        {
+          "question": "Is there a Computer Science program?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Bachelor of Science in Computer Science as a standalone program.",
+          "category": "computer_programs",
+          "keywords": [
+            "computer science",
+            "bscs",
+            "cs degree"
+          ]
+        },
+        {
+          "question": "Does NEMSU have Computer Engineering?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Bachelor of Science in Computer Engineering.",
+          "category": "computer_programs",
+          "keywords": [
+            "computer engineering",
+            "cpe",
+            "comsci",
+            "comp eng"
+          ]
+        },
+        {
+          "question": "What IT courses are available?",
+          "answer": "NEMSU offers Bachelor of Science in Information Technology at Cantilan Campus. Additionally, there's Major in Computer Technology under BS Industrial Technology for those interested in technical IT aspects.",
+          "category": "computer_programs",
+          "keywords": [
+            "information technology",
+            "bsit",
+            "it course",
+            "it program"
+          ]
+        },
+        {
+          "question": "What business courses does NEMSU offer?",
+          "answer": "NEMSU Cantilan Campus offers Bachelor of Science in Business Administration with two majors: (1) Major in Financial Management, and (2) Major in Human Resource Management.",
+          "category": "business",
+          "keywords": [
+            "business",
+            "management",
+            "bsba",
+            "business administration"
+          ]
+        },
+        {
+          "question": "Does NEMSU have a Business Administration program?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Bachelor of Science in Business Administration with majors in Financial Management and Human Resource Management.",
+          "category": "business",
+          "keywords": [
+            "business admin",
+            "bsba",
+            "business course"
+          ]
+        },
+        {
+          "question": "What are the majors for Business Administration?",
+          "answer": "Business Administration at NEMSU has two major options: Major in Financial Management and Major in Human Resource Management.",
+          "category": "business",
+          "keywords": [
+            "business major",
+            "financial management",
+            "human resource",
+            "hr"
+          ]
+        },
+        {
+          "question": "Does NEMSU offer Hospitality Management?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Bachelor of Science in Hospitality Management.",
+          "category": "hospitality_tourism",
+          "keywords": [
+            "hospitality",
+            "hotel management",
+            "hm",
+            "bshm"
+          ]
+        },
+        {
+          "question": "Is there a Tourism Management program?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Bachelor of Science in Tourism Management.",
+          "category": "hospitality_tourism",
+          "keywords": [
+            "tourism",
+            "travel",
+            "tour",
+            "bstm",
+            "tourism management"
+          ]
+        },
+        {
+          "question": "What Education programs are available?",
+          "answer": "NEMSU Cantilan Campus offers three education programs: (1) Bachelor of Secondary Education with majors in Science, Mathematics, Filipino, and English; (2) Bachelor of Technology and Livelihood Education (Major in Home Economics); and (3) Bachelor of Technical Vocational Teacher Education with multiple technology majors.",
+          "category": "education",
+          "keywords": [
+            "education",
+            "teaching",
+            "teacher",
+            "education course"
+          ]
+        },
+        {
+          "question": "Does NEMSU have a Teaching course?",
+          "answer": "Yes, NEMSU offers several teaching programs: Bachelor of Secondary Education (with majors in Science, Mathematics, Filipino, English), Bachelor of Technology and Livelihood Education, and Bachelor of Technical Vocational Teacher Education.",
+          "category": "education",
+          "keywords": [
+            "teaching",
+            "teacher course",
+            "education",
+            "bsed"
+          ]
+        },
+        {
+          "question": "What are the majors for Secondary Education?",
+          "answer": "Bachelor of Secondary Education at NEMSU Cantilan Campus offers four majors: Major in Science, Major in Mathematics, Major in Filipino, and Major in English.",
+          "category": "education",
+          "keywords": [
+            "secondary education",
+            "bsed",
+            "high school teacher"
+          ]
+        },
+        {
+          "question": "What is BTLEd and what major does it offer?",
+          "answer": "BTLEd stands for Bachelor of Technology and Livelihood Education. NEMSU Cantilan Campus offers this program with a Major in Home Economics.",
+          "category": "education",
+          "keywords": [
+            "btled",
+            "technology livelihood",
+            "home economics",
+            "tle"
+          ]
+        },
+        {
+          "question": "What is BTVTEd?",
+          "answer": "BTVTEd stands for Bachelor of Technical Vocational Teacher Education. It's a teaching program focused on technical and vocational subjects. NEMSU offers majors in: Automotive Technology, Civil Technology, Electronics Technology, Electrical Technology, Food Services Management, Fashion and Garments Technology, and Mechanical Technology.",
+          "category": "education",
+          "keywords": [
+            "btvted",
+            "vocational teacher",
+            "technical teacher",
+            "tech voc"
+          ]
+        },
+        {
+          "question": "What are the majors for Technical Vocational Teacher Education?",
+          "answer": "Bachelor of Technical Vocational Teacher Education at NEMSU offers 7 majors: Automotive Technology, Civil Technology, Electronics Technology, Electrical Technology, Food Services Management, Fashion and Garments Technology, and Mechanical Technology.",
+          "category": "education",
+          "keywords": [
+            "btvted major",
+            "vocational major",
+            "technical major"
+          ]
+        },
+        {
+          "question": "Does NEMSU offer Electrical Technology?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Electrical Technology as: (1) A major under BS Industrial Technology, and (2) A major under Bachelor of Technical Vocational Teacher Education.",
+          "category": "industrial_technology",
+          "keywords": [
+            "electrical",
+            "electrician",
+            "electrical technology",
+            "power"
+          ]
+        },
+        {
+          "question": "Is there an Electronics Technology program?",
+          "answer": "Yes, NEMSU offers Electronics Technology as: (1) A major under BS Industrial Technology, and (2) A major under Bachelor of Technical Vocational Teacher Education.",
+          "category": "industrial_technology",
+          "keywords": [
+            "electronics",
+            "electronics technology",
+            "electronic"
+          ]
+        },
+        {
+          "question": "Does NEMSU have Civil Technology?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Civil Technology as: (1) A major under BS Industrial Technology, and (2) A major under Bachelor of Technical Vocational Teacher Education.",
+          "category": "industrial_technology",
+          "keywords": [
+            "civil",
+            "civil technology",
+            "civil engineering",
+            "construction"
+          ]
+        },
+        {
+          "question": "Is there a Mechanical Technology program?",
+          "answer": "Yes, NEMSU offers Mechanical Technology as: (1) A major under BS Industrial Technology, and (2) A major under Bachelor of Technical Vocational Teacher Education.",
+          "category": "industrial_technology",
+          "keywords": [
+            "mechanical",
+            "mechanical technology",
+            "machinist"
+          ]
+        },
+        {
+          "question": "Does NEMSU offer Food Technology?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Major in Food Technology under Bachelor of Science in Industrial Technology.",
+          "category": "industrial_technology",
+          "keywords": [
+            "food technology",
+            "food tech",
+            "food science",
+            "food processing"
+          ]
+        },
+        {
+          "question": "Is there a Food Services Management program?",
+          "answer": "Yes, NEMSU offers Major in Food Services Management under the Bachelor of Technical Vocational Teacher Education program.",
+          "category": "education",
+          "keywords": [
+            "food services",
+            "food service management",
+            "culinary"
+          ]
+        },
+        {
+          "question": "Does NEMSU have a Garments or Fashion program?",
+          "answer": "Yes, NEMSU Cantilan Campus offers: (1) Major in Garments Technology under BS Industrial Technology, and (2) Major in Fashion and Garments Technology under Bachelor of Technical Vocational Teacher Education.",
+          "category": "industrial_technology",
+          "keywords": [
+            "garments",
+            "fashion",
+            "clothing",
+            "apparel",
+            "sewing"
+          ]
+        },
+        {
+          "question": "What is Architectural Drafting Technology?",
+          "answer": "Architectural Drafting Technology is a major under BS Industrial Technology at NEMSU. It focuses on technical drawing, building design, and architectural plans. This program prepares students for careers in architectural drafting and design.",
+          "category": "industrial_technology",
+          "keywords": [
+            "architectural drafting",
+            "architecture",
+            "drafting",
+            "cad"
+          ]
+        },
+        {
+          "question": "Does NEMSU offer Criminology?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Bachelor of Science in Criminology.",
+          "category": "criminology",
+          "keywords": [
+            "criminology",
+            "police",
+            "law enforcement",
+            "criminal justice"
+          ]
+        },
+        {
+          "question": "What is BS Criminology?",
+          "answer": "Bachelor of Science in Criminology is a program that prepares students for careers in law enforcement, criminal investigation, and the criminal justice system. NEMSU Cantilan Campus offers this program.",
+          "category": "criminology",
+          "keywords": [
+            "criminology",
+            "crim",
+            "criminal justice"
+          ]
+        },
+        {
+          "question": "Does NEMSU have Home Economics?",
+          "answer": "Yes, NEMSU offers Major in Home Economics under the Bachelor of Technology and Livelihood Education (BTLEd) program.",
+          "category": "education",
+          "keywords": [
+            "home economics",
+            "home ec",
+            "he"
+          ]
+        },
+        {
+          "question": "Can I take Science Education?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Major in Science under the Bachelor of Secondary Education program, which prepares you to become a science teacher.",
+          "category": "education",
+          "keywords": [
+            "science education",
+            "science teacher",
+            "science major"
+          ]
+        },
+        {
+          "question": "Can I take Math Education?",
+          "answer": "Yes, NEMSU offers Major in Mathematics under the Bachelor of Secondary Education program, preparing you to become a mathematics teacher.",
+          "category": "education",
+          "keywords": [
+            "math education",
+            "mathematics teacher",
+            "math major"
+          ]
+        },
+        {
+          "question": "Does NEMSU offer Filipino Education?",
+          "answer": "Yes, NEMSU Cantilan Campus offers Major in Filipino under the Bachelor of Secondary Education program for those who want to become Filipino language teachers.",
+          "category": "education",
+          "keywords": [
+            "filipino",
+            "filipino education",
+            "filipino major",
+            "pilipino"
+          ]
+        },
+        {
+          "question": "Can I take English Education?",
+          "answer": "Yes, NEMSU offers Major in English under the Bachelor of Secondary Education program, preparing students to become English teachers.",
+          "category": "education",
+          "keywords": [
+            "english",
+            "english education",
+            "english major",
+            "english teacher"
+          ]
+        },
+        {
+          "question": "What engineering courses are available?",
+          "answer": "NEMSU Cantilan Campus currently offers Bachelor of Science in Computer Engineering. For other engineering programs, please contact the admission office at information@nemsu.edu.ph.",
+          "category": "engineering",
+          "keywords": [
+            "engineering",
+            "engineer",
+            "engineering course"
+          ]
+        },
+        {
+          "question": "How many programs does NEMSU Cantilan offer?",
+          "answer": "NEMSU Cantilan Campus offers 13 main degree programs with various majors, totaling over 30 program specializations across technology, business, education, hospitality, and criminology fields.",
+          "category": "general",
+          "keywords": [
+            "how many",
+            "count",
+            "total programs"
+          ]
+        },
+        {
+          "question": "Where can I get more information about programs?",
+          "answer": "For detailed information about any program at NEMSU Cantilan Campus, you can: Visit nemsu.edu.ph, Email information@nemsu.edu.ph, Call 214-4221, or visit the campus directly.",
+          "category": "general",
+          "keywords": [
+            "more information",
+            "program details",
+            "inquire",
+            "ask about program",
+            "program info",
+            "course info",
+            "program inquiry",
+            "program question",
+            "details about program",
+            "course details",
+            "information about course",
+            "where to ask",
+            "contact about program",
+            "who to ask",
+            "how to get info",
+            "find out about program",
+            "need info on program",
+            "get information",
+            "learn about program"
+          ]
+        },
+        {
+          "question": "What is the difference between Industrial Technology and Technical Vocational Teacher Education?",
+          "answer": "BS Industrial Technology focuses on developing technical skills for industry work (for example as technicians or specialists). Bachelor of Technical Vocational Teacher Education prepares you to teach these technical subjects in schools. Both may have similar majors but lead to different careers.",
+          "category": "general",
+          "keywords": [
+            "difference",
+            "industrial vs vocational",
+            "bsit vs btvted"
+          ]
+        },
+        {
+          "question": "What is the accreditation status of NEMSU Cantilan Campus programs?",
+          "answer": "Many programs at NEMSU Cantilan Campus are accredited by AACCUP. The teacher education programs Bachelor of Technical Teacher Education (majors in Welding and Fabrication, Garments, Foods, Electronics, Electricity, Civil, Automotive and Architectural Drafting) and Bachelor of Secondary Education (majors in Technology and Livelihood Education, Sciences and Mathematics) are accredited at Level III Phase II. Several technology, computing and hospitality programs are Level III Phase I, including BS Industrial Technology majors (Welding and Fabrication, Mechanical Technology, Hotel and Restaurant Servicing, Garments Technology, Foods Technology, Electronics Technology, Electricity Technology, Civil Technology and Architectural Drafting), BS Information Technology, BS Computer Science and BS Hotel and Restaurant Management. BS Computer Engineering and BSBA major in Financial Management currently have candidate status, and BSBA major in Human Resource Development Management is also listed as an accredited business program. For the latest accreditation details students should still confirm with NEMSU or the campus offices.",
+          "category": "accreditation",
+          "keywords": [
+            "accreditation",
+            "aaccup",
+            "level iii",
+            "phase ii",
+            "phase i",
+            "candidate status",
+            "cantilan campus programs"
+          ]
+        },
+        {
+          "question": "Can I shift to another program?",
+          "answer": "Yes, students can shift programs subject to NEMSU's policies and requirements. You'll need to check with the Registrar's Office for specific shifting procedures, requirements, and deadlines. Contact information@nemsu.edu.ph for guidance.",
+          "category": "general",
+          "keywords": [
+            "shift",
+            "change course",
+            "transfer program",
+            "shifting"
+          ]
+        }
+      ]
+    }
+  ]
+}

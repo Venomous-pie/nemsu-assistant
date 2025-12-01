@@ -1,0 +1,55 @@
+{
+  "faqs": [
+    {
+      "question": "How much is the tuition and miscellaneous fees?",
+      "answer": "At NEMSU Cantilan Campus there is no base tuition fee for regular students, but you will pay miscellaneous fees depending on what you need, such as ID, uniform, PE requirements and other services.",
+      "keywords": [
+        "tuition",
+        "miscellaneous fees",
+        "how much",
+        "payment",
+        "tuition fee"
+      ]
+    },
+    {
+      "question": "What are the payment options?",
+      "answer": "Payments at NEMSU Cantilan Campus are generally accepted in cash only unless the school announces other options.",
+      "keywords": [
+        "payment options",
+        "how can I pay",
+        "cash",
+        "mode of payment"
+      ]
+    },
+    {
+      "question": "Can I pay in installments?",
+      "answer": "Installment arrangements for fees are not clearly defined and may change over time. Students should ask the Registrar or cashier directly if installment payment is possible for their specific case.",
+      "keywords": [
+        "installment",
+        "partial payment",
+        "pay later"
+      ]
+    },
+    {
+      "question": "Where do I pay my fees?",
+      "answer": "Fees are coordinated through the Registrar's Office and paid at the cashier or designated payment window on campus.",
+      "keywords": [
+        "where to pay",
+        "pay fees",
+        "cashier",
+        "registrar office"
+      ]
+    },
+    {
+      "question": "Do you accept GCash, PayMaya or bank transfer?",
+      "answer": "As of now, NEMSU Cantilan Campus primarily accepts cash payments for fees. Students should assume GCash, PayMaya and bank transfers are not available unless the school announces otherwise.",
+      "keywords": [
+        "gcash",
+        "paymaya",
+        "bank transfer",
+        "e-wallet",
+        "digital payment"
+      ]
+    }
+  ]
+}

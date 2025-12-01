@@ -1,0 +1,126 @@
+{
+  "faqs": [
+    {
+      "question": "Where is the campus map?",
+      "answer": "The campus map is available at the information desk and on the official website.",
+      "keywords": [
+        "campus map",
+        "map",
+        "directions"
+      ]
+    },
+    {
+      "question": "How do I find a building?",
+      "answer": "Refer to the campus map or ask at the information desk for directions.",
+      "keywords": [
+        "building",
+        "directions",
+        "location",
+        "find room"
+      ]
+    },
+    {
+      "question": "Where is NEMSU Cantilan Campus located?",
+      "answer": "NEMSU Cantilan Campus is along the Pacific coast in the town of Cantilan, about 3 km from the local wharf, roughly 117 km south of Surigao City and 67 km north of Tandag City.",
+      "category": "location",
+      "keywords": [
+        "cantilan",
+        "cantilan campus",
+        "where is nemsu cantilan",
+        "location",
+        "pacific coast"
+      ]
+    },
+    {
+      "question": "What facilities does NEMSU Cantilan Campus have?",
+      "answer": "The campus is focused on technological education and has specialized buildings for drafting, automotive and mechanical technology, electrical and electronics technology, home economics, food trades, garments, and computer or information technology, as well as laboratories for chemistry, biology, speech and an audio-visual room.",
+      "category": "facilities",
+      "keywords": [
+        "facilities",
+        "laboratories",
+        "buildings",
+        "technology",
+        "cantilan campus"
+      ]
+    },
+    {
+      "question": "What can I find when I enter Gate 1 at NEMSU Cantilan Campus?",
+      "answer": "When you enter through Gate 1 you will first reach the Student Admission Office (SAO). Beside it are the Registrar's Office and the Department of Computer Studies (DCS) faculty office. The Registrar handles grades and certificates of registration, and the second floor of the same building is where new students get their school ID.",
+      "category": "gate_1",
+      "keywords": [
+        "gate 1",
+        "student admission office",
+        "sao",
+        "registrar",
+        "dcs faculty",
+        "school id"
+      ]
+    },
+    {
+      "question": "Where are the clinic, AVR and drafting rooms located?",
+      "answer": "From the SAO and DCS faculty at Gate 1, follow the pavement straight ahead to the next building. That building houses the campus clinic, the AVR (audio visual room), and the drafting classrooms on the leftmost side.",
+      "category": "facilities",
+      "keywords": [
+        "clinic",
+        "avr",
+        "audio visual room",
+        "drafting",
+        "gate 1"
+      ]
+    },
+    {
+      "question": "Where do I get measured for a NEMSU school uniform?",
+      "answer": "Uniform measurements are taken in the same building as the clinic and AVR near Gate 1. You usually first coordinate with the Registrar's Office, who will then direct you to the uniform measurement area in that building.",
+      "category": "services",
+      "keywords": [
+        "uniform",
+        "school uniform",
+        "measurement",
+        "get measured",
+        "clinic building"
+      ]
+    },
+    {
+      "question": "What facilities are near Gate 2 at NEMSU Cantilan Campus?",
+      "answer": "When you enter through Gate 2, the library is on your right and the campus cafeteria is beside it (currently under renovation). The same building also contains several classrooms for education-related courses.",
+      "category": "gate_2",
+      "keywords": [
+        "gate 2",
+        "library",
+        "cafeteria",
+        "education classrooms"
+      ]
+    },
+    {
+      "question": "What can I access via the overpass near Gate 2?",
+      "answer": "In front of the library by Gate 2 there is an overpass that lets you safely cross the road to the other side of the campus. From there you can reach the DBM buildings, a large athletic field where athletes train and ROTC training is conducted, the NEMSU gym where many campus events are held, as well as the Criminology department buildings and the DCS classroom building where IT, Computer Science and Computer Engineering classes take place.",
+      "category": "connections",
+      "keywords": [
+        "overpass",
+        "dbm",
+        "athletes area",
+        "gym",
+        "criminology",
+        "dcs building",
+        "gate 2",
+        "rotc",
+        "training field"
+      ]
+    },
+    {
+      "question": "Which gates connect to which areas at NEMSU Cantilan Campus?",
+      "answer": "Gates 1 and 2 are on one side of the road and their internal walkways connect the SAO, Registrar, DCS faculty, clinic/AVR/uniform building, library, cafeteria and education classrooms. Gates 3, 4 and 5 are on the opposite side of the road and connect to the DBM buildings, large athletic field and ROTC training area, NEMSU gym, Criminology buildings and the main DCS classroom building. An overpass near Gate 2 connects the two sides.",
+      "category": "connections",
+      "keywords": [
+        "gate 1",
+        "gate 2",
+        "gate 3",
+        "gate 4",
+        "gate 5",
+        "connections",
+        "which gate",
+        "overpass"
+      ]
+    }
+  ]
+}

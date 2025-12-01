@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "Where can I see my grades?",
+      "answer": "You can request official copies of your grades or related documents from the Registrar's Office at NEMSU Cantilan Campus. There is usually a fee (for example around 50 pesos) for a local printed copy. When the student portal is available, you may also view grades online using your school account.",
+      "keywords": [
+        "grades",
+        "view grades",
+        "check grades",
+        "grade slip",
+        "cor grades"
+      ]
+    },
+    {
+      "question": "When are grades released?",
+      "answer": "Grades are typically released after the end of every semester. Exact release dates can vary by instructor and department, so check announcements or ask the Registrar if you need an official document.",
+      "keywords": [
+        "when are grades released",
+        "grade release",
+        "grade posting"
+      ]
+    }
+  ]
+}

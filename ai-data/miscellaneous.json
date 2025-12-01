@@ -1,0 +1,102 @@
+{
+  "faqs": [
+    {
+      "question": "Who do I contact for lost and found?",
+      "answer": "Visit the campus security office for lost and found inquiries, and also check the NEMSU Cantilan lost and found Facebook page where many lost IDs and items are posted.",
+      "keywords": [
+        "lost and found",
+        "lost id",
+        "lost item",
+        "security office",
+        "facebook page"
+      ]
+    },
+    {
+      "question": "Where can I get help with IT issues?",
+      "answer": "For IT concerns inside campus you can contact the IT helpdesk or ask assistance from the Department of Computer Studies (DCS) faculty or staff.",
+      "keywords": [
+        "it help",
+        "technical support",
+        "computer problem",
+        "dcs"
+      ]
+    },
+    {
+      "question": "What are the basic school rules and policies at NEMSU Cantilan Campus?",
+      "answer": "Some important rules include: no ID, no entry; wearing the proper school uniform is strictly required to enter the campus; and students are expected to follow standard college conduct policies inside classrooms and campus premises.",
+      "category": "policy",
+      "keywords": [
+        "rules",
+        "policies",
+        "no id no entry",
+        "uniform policy"
+      ]
+    },
+    {
+      "question": "Is attendance strictly monitored?",
+      "answer": "Yes. Class attendance at NEMSU Cantilan Campus is strictly monitored by instructors, and frequent absences can affect your grades or standing in a subject.",
+      "category": "policy",
+      "keywords": [
+        "attendance",
+        "absent",
+        "presence",
+        "attendance policy"
+      ]
+    },
+    {
+      "question": "Where can I eat or buy food near the campus?",
+      "answer": "There are small food stalls and eateries outside the campus where students commonly buy meals and snacks. Inside the campus, when available, students may eat at the cafeteria area or on benches and tables provided.",
+      "category": "campus_life",
+      "keywords": [
+        "where to eat",
+        "food",
+        "canteen",
+        "cafeteria",
+        "food stalls"
+      ]
+    },
+    {
+      "question": "Is there free WiFi inside the campus?",
+      "answer": "At present there is no general free WiFi service for students inside NEMSU Cantilan Campus. Connectivity may be limited to specific offices or labs.",
+      "category": "campus_life",
+      "keywords": [
+        "wifi",
+        "internet",
+        "free wifi"
+      ]
+    },
+    {
+      "question": "Where do I get my school uniform (if required)?",
+      "answer": "School uniform is strictly required to enter the campus. Measurements are usually taken in the building near Gate 1 that also contains the clinic and AVR. Ask the Registrar's Office first so they can direct you to the current uniform provider and schedule.",
+      "category": "campus_life",
+      "keywords": [
+        "uniform",
+        "school uniform",
+        "where to get uniform",
+        "uniform requirement"
+      ]
+    },
+    {
+      "question": "How do I join school organizations?",
+      "answer": "Student organizations at NEMSU Cantilan Campus usually recruit members during their activities, orientation events, or posted sign-ups. Watch for announcements on campus and on official pages, or approach the officers of the organization you want to join.",
+      "category": "student_services",
+      "keywords": [
+        "organizations",
+        "clubs",
+        "join org",
+        "student org"
+      ]
+    },
+    {
+      "question": "Is there a guidance or counseling office?",
+      "answer": "Yes. The campus maintains a guidance or counseling office where students can seek help for personal, academic or career concerns. For its exact location and schedule, ask the Registrar or Student Admission Office.",
+      "category": "student_services",
+      "keywords": [
+        "guidance",
+        "counseling",
+        "guidance office",
+        "counselor"
+      ]
+    }
+  ]
+}

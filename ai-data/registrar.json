@@ -1,0 +1,84 @@
+{
+  "faqs": [
+    {
+      "question": "How do I contact the registrar?",
+      "answer": "You can contact the registrar via email or visit their office during working hours.",
+      "keywords": [
+        "contact registrar",
+        "registrar phone",
+        "registrar email"
+      ]
+    },
+    {
+      "question": "What services does the registrar provide at NEMSU Cantilan Campus?",
+      "answer": "The Registrar's Office processes enrollment records, issues grades and Certificates of Registration (COR), and helps with graduation and other academic records. The office is located near Gate 1 beside the Student Admission Office, and the second floor of the same building is where new students claim their school ID.",
+      "keywords": [
+        "registrar services",
+        "grades",
+        "cor",
+        "certificate of registration",
+        "school id",
+        "gate 1 registrar"
+      ]
+    },
+    {
+      "question": "How do I request a COR, COE or TOR?",
+      "answer": "Requests for COR (Certificate of Registration), COE (Certificate of Enrollment) and TOR (Transcript of Records) are processed through the Registrar's Office. Fill out the request form they provide and pay any required fees before claiming your document.",
+      "keywords": [
+        "request cor",
+        "request coe",
+        "request tor",
+        "certificate of registration",
+        "transcript of records"
+      ]
+    },
+    {
+      "question": "Where do I claim my registration form?",
+      "answer": "You claim your registration form and final COR at the Registrar's Office once your enrollment has been processed.",
+      "keywords": [
+        "claim registration form",
+        "get cor",
+        "claim cor"
+      ]
+    },
+    {
+      "question": "How do I access the student portal?",
+      "answer": "NEMSU provides a student portal that you can access using the QR code or details at the back of your school ID. If you do not know how to log in or need an account, ask the Registrar's Office for help in creating or resetting your portal access.",
+      "keywords": [
+        "student portal",
+        "portal login",
+        "online portal",
+        "account",
+        "qr code back of id"
+      ]
+    },
+    {
+      "question": "Where do I get my school email?",
+      "answer": "School email accounts are usually created or activated through the Registrar's Office or the related IT support on campus. Ask the Registrar for instructions if you need a school email.",
+      "keywords": [
+        "school email",
+        "email account",
+        "nemsu email"
+      ]
+    },
+    {
+      "question": "How do I reset my LMS password (Google Classroom, Moodle, etc.)?",
+      "answer": "If you use a learning management system that requires your school email, you can try the normal password reset options first. If you still cannot access it, visit the Registrar's Office or the campus IT helpdesk and ask for assistance with your account.",
+      "keywords": [
+        "reset lms password",
+        "google classroom password",
+        "moodle password",
+        "forgot password"
+      ]
+    },
+    {
+      "question": "Where is the scholarship office at NEMSU Cantilan Campus?",
+      "answer": "Scholarship and financial assistance concerns are usually handled near or in the same area as the Registrar's Office. Students can inquire at the Registrar and they will direct you to the specific scholarship desk or officer.",
+      "keywords": [
+        "scholarship office",
+        "scholarship desk",
+        "financial aid office"
+      ]
+    }
+  ]
+}
