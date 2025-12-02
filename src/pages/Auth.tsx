@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { auth } from "@/lib/firebase";
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 const AuthPage = () => {
+    const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [isLogin, setIsLogin] = useState(true);
@@ -21,8 +23,22 @@ const AuthPage = () => {
             } else {
                 await createUserWithEmailAndPassword(auth, email, password);
             }
+            // On successful auth, send user to the main chat (enrollment topic by default)
+            navigate("/chat/enrollment");
         } catch (err: any) {
-            setError(err.message);
+            const rawMessage = err?.message || "Authentication failed";
+            // Simple user-friendly mapping
+            if (rawMessage.includes("auth/invalid-credential") || rawMessage.includes("wrong-password")) {
+                setError("The email or password you entered is incorrect.");
+            } else if (rawMessage.includes("auth/user-not-found")) {
+                setError("No account was found with that email address.");
+            } else if (rawMessage.includes("auth/email-already-in-use")) {
+                setError("An account with this email already exists. Try logging in instead.");
+            } else if (rawMessage.includes("auth/weak-password")) {
+                setError("Your password is too weak. Please choose a stronger password (at least 6 characters).");
+            } else {
+                setError("Authentication failed. Please double-check your details or try again later.");
+            }
         } finally {
             setLoading(false);
         }
@@ -31,7 +47,10 @@ const AuthPage = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-background">
             <form onSubmit={handleAuth} className="bg-card p-8 rounded-xl shadow-lg w-full max-w-md space-y-6">
-                <h2 className="text-2xl font-bold text-center mb-4">{isLogin ? "Login" : "Sign Up"}</h2>
+                <h2 className="text-2xl font-bold text-center mb-1">{isLogin ? "Log in to NEMSU Assistant" : "Create your NEMSU Assistant account"}</h2>
+                <p className="text-center text-sm text-muted-foreground mb-4">
+                    Use your active email so we can keep your chat history and campus info in sync.
+                </p>
                 <Input
                     type="email"
                     placeholder="Email"

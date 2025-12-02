@@ -9,8 +9,9 @@ const Landing = () => {
   const [query, setQuery] = useState("");
 
   const handleSearch = () => {
-    if (query.trim()) {
-      navigate("/chat");
+    const trimmed = query.trim();
+    if (trimmed) {
+      navigate("/chat", { state: { initialMessage: trimmed } });
     }
   };
 
@@ -38,7 +39,7 @@ const Landing = () => {
               </span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Get instant answers to your questions about enrollment, schedules, grades, 
+              Get instant answers to your questions about enrollment, schedules, grades,
               tuition, campus facilities, and more. Your 24/7 campus companion.
             </p>
           </div>
@@ -59,8 +60,8 @@ const Landing = () => {
                       onKeyPress={handleKeyPress}
                     />
                   </div>
-                  <Button 
-                    size="lg" 
+                  <Button
+                    size="lg"
                     className="h-14 px-8 rounded-xl bg-primary hover:bg-primary/90"
                     onClick={handleSearch}
                   >
@@ -75,33 +76,40 @@ const Landing = () => {
           {/* Quick Access Cards */}
           <div className="grid md:grid-cols-3 gap-4 max-w-3xl mx-auto pt-8">
             {[
-              { title: "Enrollment", desc: "Admission & registration info" },
-              { title: "Academics", desc: "Grades, schedules & requirements" },
-              { title: "Campus Life", desc: "Facilities, events & services" }
+              {
+                title: "Enrollment",
+                desc: "Admission & registration info",
+                path: "/chat/enrollment",
+                question: "What are the requirements for enrollment?"
+              },
+              {
+                title: "Academics",
+                desc: "Grades, schedules & requirements",
+                path: "/chat/schedules",
+                question: "How do I view or download my class schedule?"
+              },
+              {
+                title: "Campus Life",
+                desc: "Facilities, events & services",
+                path: "/chat/campus-map",
+                question: "Where is the Registrar's Office?"
+              }
             ].map((item) => (
-              <button
+              <Button
                 key={item.title}
-                onClick={() => navigate("/chat")}
-                className="p-6 rounded-xl bg-card border border-border hover:border-primary/50 hover:shadow-[var(--shadow-card)] transition-all text-left group"
+                onClick={() => navigate(item.path, { state: { initialMessage: item.question } })}
+                className="flex flex-col items-start gap-2 p-6 rounded-2xl shadow-md border border-border bg-card hover:bg-primary/10 transition-colors focus-visible:ring-2 focus-visible:ring-primary outline-none"
+                variant="ghost"
+                style={{ textAlign: 'left', width: '100%', height: '100%' }}
               >
-                <h3 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+                <h3 className="text-lg font-semibold mb-1 text-foreground truncate w-full" title={item.title}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-muted-foreground">{item.desc}</p>
-              </button>
+                <p className="text-sm text-muted-foreground truncate w-full overflow-hidden" title={item.desc}>
+                  {item.desc}
+                </p>
+              </Button>
             ))}
-          </div>
-
-          {/* Dashboard Link */}
-          <div className="pt-8">
-            <Button 
-              variant="outline" 
-              size="lg"
-              onClick={() => navigate("/dashboard")}
-              className="rounded-full"
-            >
-              Go to Dashboard
-            </Button>
           </div>
         </div>
       </div>

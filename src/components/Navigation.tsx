@@ -1,19 +1,60 @@
-import { Moon, Sun, User, Settings } from "lucide-react";
+import { Moon, Sun, User, Settings, LogOut, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
+import { auth } from "@/lib/firebase";
+import { onAuthStateChanged, signOut, User as FirebaseUser } from "firebase/auth";
+import { useNavigate } from "react-router-dom";
 
 const Navigation = () => {
   const [isDark, setIsDark] = useState(false);
+  const [user, setUser] = useState<FirebaseUser | null>(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    const isDarkMode = document.documentElement.classList.contains("dark");
-    setIsDark(isDarkMode);
+    // Theme from localStorage
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme === "dark") {
+      document.documentElement.classList.add("dark");
+      setIsDark(true);
+    } else if (storedTheme === "light") {
+      document.documentElement.classList.remove("dark");
+      setIsDark(false);
+    } else {
+      const isDarkMode = document.documentElement.classList.contains("dark");
+      setIsDark(isDarkMode);
+    }
+    // Auth state
+    const unsub = onAuthStateChanged(auth, (firebaseUser) => {
+      setUser(firebaseUser);
+      if (firebaseUser) {
+        localStorage.setItem("session", JSON.stringify({ uid: firebaseUser.uid, email: firebaseUser.email }));
+      } else {
+        localStorage.removeItem("session");
+      }
+    });
+    return () => unsub();
   }, []);
 
   const toggleTheme = () => {
     document.documentElement.classList.toggle("dark");
-    setIsDark(!isDark);
+    const newDark = !isDark;
+    setIsDark(newDark);
+    localStorage.setItem("theme", newDark ? "dark" : "light");
   };
+
+  const handleSignOut = async () => {
+    await signOut(auth);
+    navigate("/");
+  };
+
+  const handleProfile = () => {
+    navigate("/profile");
+  };
+
+  const handleLogin = () => {
+    navigate("/auth");
+  };
+
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-md border-b border-border">
