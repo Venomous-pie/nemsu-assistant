@@ -5,11 +5,17 @@ import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "fire
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+import { useLocation } from "react-router-dom";
+
+import { Eye, EyeOff } from "lucide-react";
+
 const AuthPage = () => {
     const navigate = useNavigate();
+    const location = useLocation();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [isLogin, setIsLogin] = useState(true);
+    const [showPassword, setShowPassword] = useState(false);
+    const [isLogin, setIsLogin] = useState(() => !(location.state && (location.state as any).signup));
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
 
@@ -58,13 +64,24 @@ const AuthPage = () => {
                     onChange={e => setEmail(e.target.value)}
                     required
                 />
-                <Input
-                    type="password"
-                    placeholder="Password"
-                    value={password}
-                    onChange={e => setPassword(e.target.value)}
-                    required
-                />
+                <div className="relative">
+                    <Input
+                        type={showPassword ? "text" : "password"}
+                        placeholder="Password"
+                        value={password}
+                        onChange={e => setPassword(e.target.value)}
+                        required
+                    />
+                    <button
+                        type="button"
+                        className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground"
+                        tabIndex={-1}
+                        onClick={() => setShowPassword(v => !v)}
+                        aria-label={showPassword ? "Hide password" : "Show password"}
+                    >
+                        {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+                    </button>
+                </div>
                 {error && <p className="text-red-500 text-sm text-center">{error}</p>}
                 <Button type="submit" className="w-full" disabled={loading}>
                     {loading ? "Processing..." : isLogin ? "Login" : "Sign Up"}

@@ -6,6 +6,7 @@ import { onAuthStateChanged, signOut, User as FirebaseUser } from "firebase/auth
 import { useNavigate } from "react-router-dom";
 
 const Navigation = () => {
+  const [showProfileMenu, setShowProfileMenu] = useState(false);
   const [isDark, setIsDark] = useState(false);
   const [user, setUser] = useState<FirebaseUser | null>(null);
   const navigate = useNavigate();
@@ -92,9 +93,42 @@ const Navigation = () => {
           <Button variant="ghost" size="icon" className="rounded-full">
             <Settings className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="icon" className="rounded-full">
-            <User className="h-5 w-5" />
-          </Button>
+          <div className="relative">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="rounded-full"
+              onClick={() => setShowProfileMenu((v) => !v)}
+              aria-label="Profile menu"
+            >
+              <User className="h-5 w-5" />
+            </Button>
+            {showProfileMenu && (
+              <div className="absolute right-0 mt-2 w-64 bg-card border border-border rounded-xl shadow-lg z-50 p-4 text-left">
+                {user ? (
+                  <>
+                    <div className="mb-2">
+                      <div className="font-semibold text-foreground">{user.displayName || user.email}</div>
+                      <div className="text-xs text-muted-foreground">UID: {user.uid}</div>
+                      {user.email && <div className="text-xs text-muted-foreground">Email: {user.email}</div>}
+                    </div>
+                    <Button className="w-full mt-2" variant="outline" onClick={handleSignOut}>
+                      <LogOut className="mr-2 h-4 w-4" /> Log out
+                    </Button>
+                  </>
+                ) : (
+                  <>
+                    <Button className="w-full mb-2" variant="outline" onClick={() => { setShowProfileMenu(false); navigate('/auth'); }}>
+                      <LogIn className="mr-2 h-4 w-4" /> Login
+                    </Button>
+                    <Button className="w-full" variant="default" onClick={() => { setShowProfileMenu(false); navigate('/auth', { state: { signup: true } }); }}>
+                      Register
+                    </Button>
+                  </>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </nav>
