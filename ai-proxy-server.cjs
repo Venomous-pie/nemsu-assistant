@@ -61,6 +61,33 @@ function detectSuggestedTopic(messageText) {
 
 function buildMetaFallbackAnswer(messageText, topic) {
     const t = topic || '';
+    const text = (messageText || '').toLowerCase();
+
+    // Greetings
+    if (/^(hi|hello|hey|good\s*(morning|afternoon|evening))\b|\b(hi|hello|hey)\b/.test(text)) {
+        return "Hello! How can I help you today?";
+    }
+    // Thank you
+    if (/\bthank(s| you)\b|\bthanks a lot\b|\bthank u\b/.test(text)) {
+        return "You're welcome! If you have any more questions, just ask.";
+    }
+    // Goodbye
+    if (/\bbye\b|\bgoodbye\b|\bsee you\b|\blater\b/.test(text)) {
+        return "Goodbye! Have a great day.";
+    }
+    // How are you
+    if (/how are you|how's it going|how do you do/.test(text)) {
+        return "I'm just a virtual assistant, but I'm here and ready to help you!";
+    }
+    // Who are you
+    if (/who are you|what are you|your name/.test(text)) {
+        return "I'm the NEMSU AI Assistant, here to help you with your questions.";
+    }
+    // Joke
+    if (/tell me a joke|make me laugh/.test(text)) {
+        return "Why did the computer go to school? To improve its 'byte'!";
+    }
+
 
     // Enrollment-related fallback
     if (t === 'enrollment') {
@@ -210,27 +237,21 @@ app.post('/api/ai-proxy', async (req, res) => {
     // Take only FAQs with positive score
     const topScored = scoredFaqs.filter((entry) => entry.score > 0).slice(0, 20);
 
-    // If nothing looks relevant, return a deterministic meta-answer without calling Gemini
-    if (!topScored.length) {
-        const metaAnswer = buildMetaFallbackAnswer(message, topic);
-        return res.json({ answer: metaAnswer });
-    }
-
-    const limitedFaqs = topScored.map((entry) => entry.faq);
+    // Always use Gemini API for all questions, regardless of FAQ score
+    const limitedFaqs = topScored.length ? topScored.map((entry) => entry.faq) : faqEntries;
 
     const contextualFaqString = limitedFaqs.map((faq) =>
         `Q: ${faq.question}\nA: ${faq.answer}`
     ).join('\n---\n');
 
-    // ✅ UPDATED: Using a model confirmed in your list
     const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent?key=${GEMINI_API_KEY}`;
 
     const prompt = `
   You are the NEMSU AI Assistant. Use the following FAQ database to answer the student's question.
   
   RULES:
-  1. Only answer based on the context provided.
-  2. Keep answers concise.
+  1. Answer as helpfully as possible, using the FAQ database as context, but you may also answer general questions outside NEMSU scope naturally.
+  2. Keep answers concise and friendly.
 
   FAQ DATABASE (most relevant entries first):
   ${contextualFaqString}
