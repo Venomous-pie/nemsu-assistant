@@ -6,6 +6,8 @@ import { onAuthStateChanged } from "firebase/auth";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import ChatSidebar from "@/components/ChatSidebar";
+import { Menu } from "lucide-react";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { useLocation, useNavigate } from "react-router-dom";
 import { getAIResponse } from "@/lib/ai";
 
@@ -69,6 +71,8 @@ const getSuggestedQuestions = (topic?: string): string[] => {
 };
 
 const Chat = () => {
+  const isMobile = useIsMobile();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [showLoginNotice, setShowLoginNotice] = useState(true);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   useEffect(() => {
@@ -204,9 +208,41 @@ const [messages, setMessages] = useState<ChatMessage[]>([
           </button>
         </div>
       )}
-      <ChatSidebar />
-      
-      <main className="flex-1 ml-64 flex flex-col bg-background">
+      {/* Sidebar for desktop, Drawer for mobile */}
+      {!isMobile ? (
+        <ChatSidebar />
+      ) : (
+        <>
+          <button
+            className="fixed left-4 top-20 z-40 p-2 rounded-full bg-card border border-border shadow-md md:hidden"
+            onClick={() => setSidebarOpen(true)}
+            aria-label="Open menu"
+          >
+            <Menu className="h-6 w-6" />
+          </button>
+          {sidebarOpen && (
+            <div className="fixed inset-0 z-50 flex">
+              <div className="w-64 bg-sidebar border-r border-sidebar-border h-full shadow-lg relative animate-slide-in-left">
+                <ChatSidebar />
+                <button
+                  className="absolute top-2 right-2 p-1 rounded-full w-8 h-8 bg-card border border-border"
+                  onClick={() => setSidebarOpen(false)}
+                  aria-label="Close menu"
+                >
+                  ✕
+                </button>
+              </div>
+              <div
+                className="flex-1 bg-black/30 backdrop-blur-sm"
+                onClick={() => setSidebarOpen(false)}
+                aria-label="Close menu overlay"
+              />
+            </div>
+          )}
+        </>
+      )}
+
+      <main className={`flex-1 flex flex-col bg-background ${!isMobile ? 'ml-64' : ''}`}>
         {/* Topic Header */}
         <div className="px-6 pt-4 flex items-center justify-between">
           <div>
