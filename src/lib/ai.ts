@@ -4,7 +4,8 @@ interface AIRequestPayload {
 }
 
 export async function getAIResponse({ message, topic }: AIRequestPayload): Promise<string> {
-  const response = await fetch("http://localhost:3001/api/ai-proxy", {
+  const apiBaseUrl = import.meta.env.VITE_AI_PROXY_URL || "http://localhost:3001";
+  const response = await fetch(`${apiBaseUrl}/api/ai-proxy`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
