@@ -8,8 +8,8 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "vite preview"
+    "preview": "vite preview --port $PORT",
+    "start": "vite preview --port $PORT"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
